@@ -1,19 +1,19 @@
-# class Perro:
-#     def __init__(self,name,age):
-#         self.name = name
-#         self.age = age
+class Perro:
+    def __init__(self,name,age):
+        self.name = name
+        self.age = age
 
-#     def saludar(self):
-#         return f"Hello"
+    def saludar(self):
+        return f"Hello"
     
-#     def __str__(self) -> str:
-#         return print("Mi nombre es: ", self.name)
+    def __str__(self) -> str:
+        return print("Mi nombre es: ", self.name)
     
-# Tobby = Perro("Tobby", 3)
-# print(Tobby.name)
-# print(Tobby.age)
-# print(Tobby.saludar())
-# print(Tobby.__str__())
+Tobby = Perro("Tobby", 3)
+print(Tobby.name)
+print(Tobby.age)
+print(Tobby.saludar())
+print(Tobby.__str__())
 
 class Persona:
 
